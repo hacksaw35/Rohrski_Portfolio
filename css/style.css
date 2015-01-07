@@ -1,0 +1,168 @@
+
+
+
+@font-face {
+    font-family: 'suisse_worksbold';
+    src: url('../fonts/suisseworks/suisseworks-bold-webfont.eot');
+    src: url('../fonts/suisseworks/suisseworks-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/suisseworks/suisseworks-bold-webfont.woff') format('woff'),
+         url('../fonts/suisseworks/suisseworks-bold-webfont.ttf') format('truetype'),
+         url('../fonts/suisseworks/suisseworks-bold-webfont.svg#suisse_worksbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'suisse_worksregular';
+    src: url('../fonts/suisseworks/suisseworks-regular-webfont.eot');
+    src: url('../fonts/suisseworks/suisseworks-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/suisseworks/suisseworks-regular-webfont.woff') format('woff'),
+         url('../fonts/suisseworks/suisseworks-regular-webfont.ttf') format('truetype'),
+         url('../fonts/suisseworks/suisseworks-regular-webfont.svg#suisse_worksregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'galaxie';
+    src: url('../fonts/galaxie/GalaxieCopernicus-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #f7f6f0;
+	color: #68635F;
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: 'galaxie', serif;
+}
+
+h1 { 
+	color: #68635F;
+	font-size: 80px;
+	line-height: 1.5;
+	letter-spacing: -3px;
+	font-family: 'suisse_worksbold', serif;
+}
+
+
+h3 {
+	background: #f7f6f0;
+	color: #68635F;
+	font-size: 1em;
+	line-height: 1.5;
+	font-family: 'galaxie', serif;
+}
+
+
+a {
+	color: #bbbbbb;
+	text-decoration: none;
+	outline: none;
+}
+
+a:link{
+  color:#68635F;text-decoration:none;
+  -o-transition:color.3s;
+  -ms-transition:color.3s;
+  -moz-transition:color.3s;
+  -webkit-transition:color.3s;
+  transition:color.3s;
+}
+a:visited {color:#68635F;text-decoration:none;}
+a:hover {color:#4ED1A1;}  
+a:active {color:#68635F;}  
+
+.projects {
+	display: block;
+	text-align: left;
+	margin-left: 50px;
+
+}
+
+.navitem {
+	color: #68635F;
+	font-size: 80px;
+	line-height: 1.2;
+	letter-spacing: -3px;
+	font-family: 'suisse_worksbold', serif;
+}
+
+.overlay-open {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+	background: url(../img/info.svg) no-repeat center center;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+
+
+section button {
+	display: inline-block;
+	background: #a9a9a9;
+	color: #fff;
+	font-weight: 400;
+	padding: 10px 20px;
+	margin: 5px;
+	text-transform: uppercase;
+	border-radius: 2px;
+	letter-spacing: 1px;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a:active,
+.codrops-demos a.current-demo {
+	background: #777;
+}
+
+
+
+section p {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+section button {
+	border: none;
+	padding: 15px 30px;
+	outline: none;
+	background: #85b91e;
+}
+
+
+
+
+@media screen and (max-width: 25em) {
+	.codrops-icon span {
+		display: none;
+	}
+}
+
+
