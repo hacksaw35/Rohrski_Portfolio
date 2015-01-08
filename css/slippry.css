@@ -204,7 +204,7 @@
     width: 10%;
     min-width: 4.2em;
     height: 100%;
-    z-index: 33; }
+    z-index: 5; }
     .sy-controls li.sy-prev {
       left: 0;
       top: 0; }
@@ -265,7 +265,7 @@
 .sy-caption-wrap {
   position: absolute;
   bottom: 2em;
-  z-index: 12;
+  z-index: 4;
   left: 50%; }
   .sy-caption-wrap .sy-caption {
     position: relative;
