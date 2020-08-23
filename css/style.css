@@ -1,13 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap');
 
-
-
-@font-face {
-	font-family: 'Work';
-	font-style:  normal;
-	font-weight: 100;
-	font-display: swap;
-	src: url("https://fonts.googleapis.com/css?family=Work") format("ttf");
-  }
 
 
 @font-face {
@@ -175,7 +167,7 @@ h1 {
 	color: #3f4e2a;
 	font-size: 5rem;
 	letter-spacing: -3px;
-	font-family: 'Work', serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 
