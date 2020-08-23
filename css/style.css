@@ -198,6 +198,9 @@ a:hover {color:#4ED1A1;}
 a:active {color:#68635F;}  
 
 
+.main {
+	width: 50%;
+}
 
 @media screen and (max-height: 30.5em) {
 	.overlay .about {
