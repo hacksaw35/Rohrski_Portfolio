@@ -4,7 +4,7 @@
 	font-style:  normal;
 	font-weight: 100;
 	font-display: swap;
-	src: url("WorkSans-Italic-VariableFont_wght.ttf") format("ttf");
+	src: url("WorkSans-VariableFont_wght.ttf") format("ttf");
   }
 
 
@@ -174,7 +174,6 @@ h1 {
 	font-size: 5rem;
 	letter-spacing: -3px;
 	font-family: 'Work', serif;
-	font-weight: 800;
 }
 
 
