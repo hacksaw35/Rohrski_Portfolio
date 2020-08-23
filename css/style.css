@@ -5,6 +5,7 @@
 body {
 	background: #e4f6ed;
 	padding-top: 20%;
+	margin: auto;
 
 }
 
@@ -45,13 +46,11 @@ a:hover {color:#4ED1A1;}
 a:active {color:#68635F;}  
 
 .headline {
-	width: 70%;
-	margin: auto;
+	width: 60%;
 }
 
 .main {
 	width: 60%;
-	margin: auto;
 }
 
 @media screen and (max-height: 30.5em) {
