@@ -159,7 +159,8 @@ body {
 	background: #e4f6ed;
 	color: #3f4e2a;
 	font-size: 1.7rem;
-	letter-spacing: -1px;
+	letter-spacing: -.5px;
+	line-height: 2.4rem;
 	font-family: 'Lora', serif;
 }
 
