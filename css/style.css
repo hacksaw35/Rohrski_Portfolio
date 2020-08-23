@@ -22,6 +22,7 @@ h1 {
 	letter-spacing: -2px;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
+	margin-bottom: 0;
 }
 
 
@@ -55,7 +56,6 @@ a:active {color:#68635F;}
 .headline {
 	width: 70%;
 	padding-top: 30%;
-	margin-bottom: 0;
 }
 
 .main {
