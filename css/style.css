@@ -4,7 +4,6 @@
 
 body {
 	background: #e4f6ed;
-	margin: auto;
 	padding-top: 20%;
 
 }
@@ -47,6 +46,7 @@ a:active {color:#68635F;}
 
 .headline {
 	width: 70%;
+	margin: auto;
 }
 
 .main {
