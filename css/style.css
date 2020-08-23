@@ -200,7 +200,7 @@ a:active {color:#68635F;}
 
 .main {
 	width: 50%;
-	margin: 20%;
+	margin: auto;
 }
 
 @media screen and (max-height: 30.5em) {
