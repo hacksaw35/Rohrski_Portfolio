@@ -163,10 +163,9 @@ body {
 
 h1 { 
 	color: #3f4e2a;
-	font-size: 4rem;
+	font-size: 10rem;
 	letter-spacing: -3px;
 	font-family: 'Inter', serif;
-	font-style:  italic;
 	font-weight: 800;
 }
 
