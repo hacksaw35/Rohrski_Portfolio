@@ -162,7 +162,7 @@ body {
 
 p {
 	color: #3f4e2a;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	letter-spacing: -.5px;
 	line-height: 2.4rem;
 	font-family: 'Lora', serif;
@@ -204,11 +204,15 @@ a:visited {color:#68635F;text-decoration:none;}
 a:hover {color:#4ED1A1;}  
 a:active {color:#68635F;}  
 
-
-.main {
+.headline {
 	width: 70%;
 	margin: auto;
 	padding-top: 30%;
+}
+
+.main {
+	width: 60%;
+	margin: auto;
 }
 
 @media screen and (max-height: 30.5em) {
