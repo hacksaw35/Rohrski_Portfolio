@@ -1,3 +1,3 @@
-# Rohrski_Portfolio
+# Rohrski
 
-Painfully trying to code a portfolio site on my own.
+CV
