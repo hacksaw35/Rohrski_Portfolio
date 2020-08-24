@@ -13,7 +13,7 @@ p {
 	font-size: 1.7rem;
 	line-height: 2.2rem;
 	font-family: 'Nanum Myeongjo', serif;
-
+	display: inline;
 }
 
 h1 { 
