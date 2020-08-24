@@ -26,9 +26,10 @@ h1 {
 
 
 a {
-	color: #bbbbbb;
-	text-decoration: none;
-	outline: none;
+	color: #3f4e2a;
+	font-size: 1.7rem;
+	line-height: 2.2rem;
+	font-family: 'Nanum Myeongjo', serif;
 }
 
 a:link{
