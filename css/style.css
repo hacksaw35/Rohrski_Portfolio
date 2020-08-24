@@ -18,7 +18,7 @@ p {
 
 h1 { 
 	color: #3f4e2a;
-	font-size: 5.1rem;
+	font-size: 5.5rem;
 	letter-spacing: -2px;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 600;
@@ -46,7 +46,7 @@ a:hover {color:#da26b3;}
 a:active {color:#29331a;}  
 
 .headline {
-	width: 70%;
+	width: 75%;
 	margin: auto;
 }
 
