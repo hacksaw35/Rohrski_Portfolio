@@ -33,16 +33,15 @@ a {
 }
 
 a:link{
-  color:#68635F;text-decoration:none;
-  -o-transition:color.3s;
-  -ms-transition:color.3s;
-  -moz-transition:color.3s;
-  -webkit-transition:color.3s;
-  transition:color.3s;
+	color: #3f4e2a;
+  	-o-transition:color.3s;
+ 	-ms-transition:color.3s;
+  	-moz-transition:color.3s;
+  	-webkit-transition:color.3s;
+  	transition:color.3s;
 }
-a:visited {color:#68635F;text-decoration:none;}
-a:hover {color:#4ED1A1;}  
-a:active {color:#68635F;}  
+a:hover {color:#da26b3;}  
+a:active {color:#29331a;}  
 
 .headline {
 	width: 70%;
