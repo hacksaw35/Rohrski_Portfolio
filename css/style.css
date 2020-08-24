@@ -54,6 +54,13 @@ a:active {color:#29331a;}
 	margin: auto;
 }
 
+.footer {
+	width: 58%;
+	margin: auto;
+	padding-top: 2%;
+	padding-bottom: 15%;
+}
+
 @media screen and (max-height: 30.5em) {
 	.overlay .about {
 		height: 70%;
