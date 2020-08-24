@@ -74,9 +74,9 @@ li {
 }
 
 li:after {
-    content: "|";
+    content: "/";
     display: inline-block;
-    margin: 0 2px 0 6px;
+    margin: 0 4px 0 8px;
 }
 
 li:last-child:after {
