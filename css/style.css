@@ -11,7 +11,7 @@ body {
 p {
 	color: #3f4e2a;
 	font-size: 1.7rem;
-	line-height: 2.2rem;
+	line-height: 2.3rem;
 	font-family: 'Nanum Myeongjo', serif;
 	display: inline;
 }
@@ -31,6 +31,7 @@ a {
 	line-height: 2.2rem;
 	font-family: 'Nanum Myeongjo', serif;
 	display: inline;
+	padding: 0 1px;
 }
 
 a:link{
