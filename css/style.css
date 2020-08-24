@@ -10,7 +10,7 @@ body {
 
 p {
 	color: #3f4e2a;
-	font-size: 1.6rem;
+	font-size: 1.7rem;
 	line-height: 2.2rem;
 	font-family: 'Nanum Myeongjo', serif;
 
@@ -45,12 +45,12 @@ a:hover {color:#4ED1A1;}
 a:active {color:#68635F;}  
 
 .headline {
-	width: 60%;
+	width: 58%;
 	margin: auto;
 }
 
 .main {
-	width: 60%;
+	width: 58%;
 	margin: auto;
 }
 
