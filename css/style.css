@@ -19,7 +19,7 @@ p {
 h1 { 
 	color: #3f4e2a;
 	font-size: 5.5rem;
-	letter-spacing: -4px;
+	letter-spacing: -.3rem;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 500;
 }
