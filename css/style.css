@@ -11,7 +11,7 @@ body {
 p {
 	color: #3f4e2a;
 	font-size: 1.7rem;
-	line-height: 2.3rem;
+	line-height: 2.4rem;
 	font-family: 'Nanum Myeongjo', serif;
 	display: inline;
 }
@@ -42,22 +42,33 @@ a:link{
   	-webkit-transition:color.3s;
   	transition:color.3s;
 }
-a:hover {color:#da26b3;}  
+a:hover {color:#d18f00;}  
 a:active {color:#29331a;}  
 
+
+::-moz-selection { 
+	background: #ffca58;
+  }
+  
+::selection {
+	background: #ffca58;
+  }
+
+
+
 .headline {
-	width: 75%;
+	max-width: 1000px;
 	margin: auto;
-	padding-left: 3.4%;
+	padding-bottom: 20px;
 }
 
 .main {
-	width: 58%;
+	max-width: 900px;
 	margin: auto;
 }
 
 .footer {
-	width: 58%;
+	max-width: 900px;
 	margin: auto;
 	padding-top: 2%;
 	padding-bottom: 15%;
@@ -76,8 +87,8 @@ li {
 
 li:after {
     content: "/";
-    display: inline-block;
-    margin: 0 4px 0 8px;
+	display: inline-block;
+	margin: 0 4px 0 8px;
 }
 
 li:last-child:after {
@@ -88,49 +99,81 @@ li:last-child:after {
 
 
 
-@media screen and (max-height: 30.5em) {
-	.overlay .about {
-		height: 70%;
-		font-size: 34px;
-	}
-	.overlay {
-		min-height: 34px;
-	}
-}
 
+@media (min-width: 601px) and (max-width: 1400px) {
+	.headline {
+		width: 87%;
+		max-width: 910px;
+	}
+
+	.main {
+    	width: 85%;
+	}
+
+	.footer {
+		width: 85%;
+		padding-top: 4%;
+	}
+
+	h1 { 
+		font-size: 4.6rem;	
+	}
+
+	p {
+		font-size: 1.8em;
+	}
+
+	a {
+		font-size: 1.8em;
+	}
+
+}
 
 
 @media (max-width: 600px) {
-  	.aboutbody {
-    font-size: .8em;
+	.headline {
+		width: 87%;
+		max-width: 910px;
 	}
+	
+	.main {
+		width: 85%;
+	}
+
+	.footer {
+		width: 85%;
+		padding-top: 4%
+	}
+
+	h1 { 
+		font-size: 3rem;
+		letter-spacing: -.2rem;	
+	}
+
+	p {
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+
+	a {
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+
+
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
-  	.aboutbody {
-    font-size: .9em;
-	}
-}
 
 
-@media (max-width: 600px) {
-  	h1 {
-    font-size: 2.5em;
-	}
-}
 
-@media (min-width: 601px) and (max-width: 900px) {
-  	.overlay .about {
-    margin-left: 20%;
-    margin-right: 20%;
-	}
-}
 
-@media (max-width: 600px) {
-  	.overlay .about {
-    margin: 10%;
-	}
-}
+
+
+
+
+
+
+
 
 
 @media (prefers-color-scheme: dark) {
@@ -147,7 +190,16 @@ li:last-child:after {
 	}
 
 	a {
-	  color: #e9ebf0;
+	  color: #cdd4c2;
 	}
+
+	a:link {
+		color: #cdd4c2;
+	}
+
+	a:hover {color:#d18f00;}  
+	a:active {color:#f3b328;}    
+
   }
+
 
