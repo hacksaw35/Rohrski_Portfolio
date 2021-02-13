@@ -1,0 +1,8 @@
+<svg id="e1ogkq1ug1171" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 120" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><style><![CDATA[#e1ogkq1ug1172 {
+           animation-name: e1ogkq1ug1172_s_w, e1ogkq1ug1172_s_do;
+           animation-duration: 2000ms;
+           animation-fill-mode: forwards;
+           animation-timing-function: linear;
+           animation-direction: normal;
+           animation-iteration-count: 1;  
+        }@keyframes e1ogkq1ug1172_s_w { 0% {stroke-width: 2;animation-timing-function: cubic-bezier(0.455000,0.030000,0.380000,0.995000)} 30% {stroke-width: 16} 100% {stroke-width: 16} }@keyframes e1ogkq1ug1172_s_do { 0% {stroke-dashoffset: 257.620000;animation-timing-function: cubic-bezier(0.455000,0.030000,0.380000,0.995000)} 85% {stroke-dashoffset: 0} 100% {stroke-dashoffset: 0} }]]></style><path id="e1ogkq1ug1172" d="M526.881508,170.410000C560.147455,250.843778,573.106825,260.986030,521.255454,263.078127C471.109662,265.101611,540.062283,170.947968,585.253815,219.907677" transform="matrix(1 0 0 1 -485.25378418000014 -156.75996215999999)" fill="none" stroke="rgb(205,212,194)" stroke-width="2" stroke-miterlimit="10" stroke-dashoffset="257.620000" stroke-dasharray="257.620000"/></svg>
